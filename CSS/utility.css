@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+:root { 
+    --main-bg-color: #fffdef;
+    --sec-bg-color: #3b3b3b;
+    --inner-bg:#f5f5f5;
+    --main-btn-color:#ff6003;
+    --sec-btn-color:#da5000;
+    --t-bg: rgba(0, 0, 0, 0);
+
+    --font1:'Roboto', sans-serif;
+    --font2:'Urbanist', sans-serif;
+    --font3: 'Josefin Sans', sans-serif;
+    --font4: 'Josefin Sans', sans-serif;
+}
+
+/* FONTS */
+.font1{
+    font-family: var(--font1) ;
+}
+.font2{
+    font-family: var(--font2) ;
+}
+.font3{
+    font-family: var(--font3) ;
+}
+.font4{
+    font-family: var(--font4) ;
+}
+
+/* BACKGROUND COLORS */
+.bg-main{
+    background-color: var(--main-bg-color);
+}
+.bg-sec{
+    background-color: var(--sec-bg-color);
+}
+.bg-3{
+    background-color: var(--inner-bg);
+}
+.t-bg{
+    background-color: var(--t-bg);
+}
+/* WIDTHS */
+.width-1{
+    width: 80%;
+}
+.width-2{
+    width: 60%;
+}
+.width-3{
+    width: 40%;
+}
+/* CENTER  */
+.center{
+    text-align: center;
+}
+.mid{
+    margin: auto;
+}
+.m-y15{
+    margin: 15px auto;
+}
+.flex-c{
+    display: flex;
+    flex-direction: column;
+}
+/* BUTTONS */
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    transition: all .25s ease-in-out;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 2px 5px;
+    cursor: pointer;
+    outline: none;
+    margin: 3px;
+}
+.btn:hover{
+    background-color: var(--main-btn-color) ;
+    color: rgb(255, 255, 255);
+}

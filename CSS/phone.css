@@ -1,0 +1,83 @@
+@media screen and (max-width: 900px) {
+    .nav-left,
+    .navigation{
+        flex-direction: column;
+    }
+    .navigation{
+        height: 4.5rem;
+    }
+    .navbar li a{
+        font-size:12px ;
+    }
+    .logo{
+        width: 3rem;
+        margin: 0;
+        margin-top: 8px;
+    }
+    .search{
+        margin-bottom: 7px;
+        font-size: 11px;
+        text-align: center;
+    }
+    #home h1 {
+        font-size: 2rem;
+    }
+    .typewrite {
+        font-size: 1rem;
+    }
+    #about{
+        width: 80%;
+    }
+    .about-img{
+        width: 50%;
+     }
+    #category{
+        flex-direction: column;
+        width: 90%;
+    }
+    .category-box{
+        width: 100%;
+        padding: 1rem;
+    }
+    .category-btn{
+        opacity: 1;
+    }
+    .icon-box,
+    .static-box{
+        width: 50%;
+        height: 50%;
+    }
+    #blogpost{
+        width: 90%;
+    }
+    .icon-container {
+        flex-wrap: wrap;
+    }
+    .icon-container a i {
+        font-size: 17px;
+    }
+    /* EXPLORE PAGE  */
+    #explore-cover h1 {
+        font-size: 2.2rem;
+        padding-top: 4rem;
+    }
+    /* CONTACT PAGE  */
+    .contact{
+        width: 95%;
+    }
+    #contact-cover h1{
+        padding-top: 8rem;
+        font-size: 3rem;
+    }
+    .contact-text h3{
+        margin: 4px 0px;
+    }
+    .contact-text{
+        padding: .75rem;
+        font-size: 10px;
+    }
+    .contact-form{
+        width: 90%;
+    }
+
+}
